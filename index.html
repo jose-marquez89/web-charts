@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Fun Stuff For You And Me</title>
+        <title>Weather Statistics</title>
     </head>
     <body>
-        <h1>A Interesting Thing</h1>
+        <h1>Weather Statistics Widget</h1>
         <div>
-            <p>This is an interesting thing that you may find interesting. You may also not.</p>
-            <input type="number" placeholder="Enter Zip Code" id="zip-entry-field">
+            <p>Enter your zip code in the field below:</p>
+            <input type="number" placeholder="5-digit zip" id="zip-entry-field">
             <button type="button" onclick="getZipCode();">Get Weather Report</button>
+            <div>
+                <h3 id="place-name"></h3>
+                <p id="temperature"></p>
+            </div>
         </div>
         <script src="my_chart.js"></script>
     </body>
