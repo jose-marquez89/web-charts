@@ -1,0 +1,15 @@
+body {
+    back
+}
+h1, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-feature {
+    text-align: center;
+}
