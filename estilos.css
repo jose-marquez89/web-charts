@@ -16,9 +16,10 @@ p {
 }
 
 div {
-    opacity: 0.4;
     background-color: white;
 }
 .main-feature {
+    width: 50em;
     text-align: center;
+    margin: 0 auto;
 }
