@@ -19,7 +19,7 @@ div {
     background-color: white;
 }
 .main-feature {
-    width: 50em;
+    height: 20em;
     text-align: center;
-    margin: 0 auto;
+    margin: auto 20em;
 }
